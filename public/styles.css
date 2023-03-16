@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background: url("https://images.pexels.com/photos/2908983/pexels-photo-2908983.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    text-align: center;
+  }
+  
+  #container {
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  
+  #sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+
+  #main {
+    font-size: 3rem;
+  }
+
+  #datetime {
+    font-size: 2rem;
+  }
+
+  .grp {
+    width: max-content;
+  }
